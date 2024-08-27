@@ -1,0 +1,4 @@
+Identify_Stale_PWS_Assets.ps1 will ingest an asset list export from the password safe UI (Not the API as that is tab delimeted output)
+It will output a csv file that can then be ingested by the DeleteManagedSystem script that will perfomr the delete action.
+
+Please note it is the responsibility of ay user of this example to validate the saftey of using it, no guarantees are provided around behaviour, use at your own risk.
